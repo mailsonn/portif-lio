@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 7%;
+    height: 80px;
+    /*border: solid 2px black;*/
+}
+
+.logo, .fa-atom {
+    flex: 10%;
+     /*border: 1px solid black;*/
+    text-align: center;
+  
+}
+
+.logo #text-logo{
+    font-weight: bolder;
+    font-size: 20px;
+    color: #422bc9;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    flex: 90%;
+    /*border: 1px solid red;*/
+    color: #333227;
+    text-align: right;
+    font-size: 16px;
+}
+
+.menu ul li{
+    padding-right: 4rem;
+}
+
+ul li, a{
+    text-decoration: none;
+    display: inline-block;
+    color: #333227;
+}
+
+
+
+.about-me{
+    margin-top: 100px;
+}
+
+.fita {
+    width: auto;
+    height: auto;
+    background-color:  #422bc9;
+    color: white;
+    padding: 1rem  5rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: inline-block;
+    font-weight: bolder;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    /*border: solid 1px blue;*/
+    margin: 0 7%;
+}
+
+.intro{
+    /*border: solid 1px red;*/
+    display: inline-block;
+    font-size: 45px;
+    font-weight: bolder;
+    color:  #422bc9;
+    width: 600px;
+}
+
+.text-intro{
+    color: #333227;
+    font-size: 15px;
+}
+
+.foto{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(189, 184, 184);
+    border: 2px solid   #d99af8;
+}
+
+.fa-solid{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.fa-regular{
+    font-size: 20px;
+    color: #333277;
+}
