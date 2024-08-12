@@ -11,13 +11,13 @@ body{
     padding: 0;
 }
 
-.topo {
+.main-header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 0 7%;
     height: 80px;
-    /*border: solid 2px black;*/
+    border: solid 2px black;
 }
 
 .logo, .fa-atom {
@@ -73,9 +73,9 @@ ul li, a{
 
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 10px;
-    /*border: solid 1px blue;*/
+    border: solid 1px blue;
     margin: 0 7%;
 }
 
@@ -98,6 +98,7 @@ ul li, a{
     height: 300px;
     background-color: rgb(189, 184, 184);
     border: 2px solid   #d99af8;
+    margin-right: 0rem;
 }
 
 .fa-solid{
@@ -108,4 +109,5 @@ ul li, a{
 .fa-regular{
     font-size: 20px;
     color: #333277;
+    margin-right: 10rem;
 }
