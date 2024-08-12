@@ -1,1 +1,2 @@
-![new45](https://github.com/user-attachments/assets/9f703ffb-b9f6-418d-92be-a2c234a54319)
+assim ele esta iniciando 😙
+![12](https://github.com/user-attachments/assets/f18185bb-7a30-4cd2-9021-0462e76e5778)
