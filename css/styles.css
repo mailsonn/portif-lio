@@ -3,6 +3,7 @@
 *{
     box-sizing: border-box;
 }
+
 body{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -43,9 +44,23 @@ body{
     font-size: 16px;
 }
 
+/*testes de hover*/
 .menu ul li{
     padding-right: 4rem;
+    padding: 8px 3rem;
+    border-bottom: solid 4px transparent;
+    transition: 0.2s;
 }
+
+.menu ul li:hover{
+    border-bottom: solid 4px #422bc9;
+}
+
+
+.menu ul li a:hover{
+    color:#422bc9;
+}
+/*testes de hover*/
 
 ul li, a{
     text-decoration: none;
