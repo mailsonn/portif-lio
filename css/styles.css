@@ -50,10 +50,6 @@ body{
     transition: 0.2s;
 }
 
-.menu ul li:hover{
-    
-}
-
 .menu ul li a:hover{
     color:#422bc9;
 }
