@@ -21,11 +21,10 @@ body{
     /*border: solid 2px black;*/
 }
 
-.logo, .fa-atom {
+.logo {
     flex: 10%;
      /*border: 1px solid black;*/
-    text-align: center;
-  
+    text-align: center; 
 }
 
 .logo #text-logo{
@@ -48,27 +47,33 @@ body{
 .menu ul li{
     padding-right: 4rem;
     padding: 8px 3rem;
-    border-bottom: solid 4px transparent;
     transition: 0.2s;
 }
 
 .menu ul li:hover{
-    border-bottom: solid 4px #422bc9;
+    
 }
-
 
 .menu ul li a:hover{
     color:#422bc9;
 }
-/*testes de hover*/
 
 ul li, a{
     text-decoration: none;
     display: inline-block;
     color: #333227;
+    border-bottom: solid 4px transparent;
 }
+/*testes de hover*/
 
-
+.fa-moon{
+    cursor: pointer;
+    font-size: large;
+}
+.fa-moon:hover{
+    cursor: pointer;
+    color:#422bc9;
+}
 
 .about-me{
     margin-top: 100px;
