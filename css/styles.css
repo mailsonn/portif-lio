@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/*#1a1a1a*/
 *{
     box-sizing: border-box;
 }
@@ -10,6 +11,8 @@ body{
     font-style: normal;
     margin: 0;
     padding: 0;
+    background-color: white;
+    transition: 0.5s ease;
 }
 
 .main-header {
@@ -18,29 +21,24 @@ body{
     align-items: center;
     margin: 0 7%;
     height: 80px;
-    /*border: solid 2px black;*/
 }
 
 .logo {
     flex: 10%;
-     /*border: 1px solid black;*/
-    text-align: center; 
-}
-
-.logo #text-logo{
+    text-align: center;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 30px;
     color: #422bc9;
+    text-shadow: 0 0 2px white;
 }
 
 .menu{
     display: flex;
     justify-content: space-around;
     flex: 90%;
-    /*border: 1px solid red;*/
-    color: #333227;
     text-align: right;
     font-size: 16px;
+    font-weight: 600;
 }
 
 /*testes de hover*/
@@ -48,10 +46,7 @@ body{
     padding-right: 4rem;
     padding: 8px 3rem;
     transition: 0.2s;
-}
-
-.menu ul li a:hover{
-    color:#422bc9;
+    display: inline; /*garantir mesmo tamanho dos icons*/
 }
 
 ul li, a{
@@ -60,16 +55,28 @@ ul li, a{
     color: #333227;
     border-bottom: solid 4px transparent;
 }
-/*testes de hover*/
 
-.fa-moon{
+
+/*botoes turn*/
+.buttons{
+    padding: 0;
+    position: fixed;
+    top: 29px;
+    right: 15rem;
+    display: flex;
+    align-items: center;
+}
+
+#night-icon{
     cursor: pointer;
     font-size: large;
 }
-.fa-moon:hover{
+
+#day-icon{
+    display: none;
     cursor: pointer;
-    color:#422bc9;
 }
+/*botoes turn*/
 
 .about-me{
     margin-top: 100px;
@@ -85,14 +92,19 @@ ul li, a{
     border-bottom-right-radius: 20px;
     display: inline-block;
     font-weight: bolder;
+    box-shadow: 0 0 2px white;
 }
 
 .container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 10px;
-    /*border: solid 1px blue;*/
     margin: 0 7%;
+}
+
+.mini-container{
+    flex: 50%;
+    margin-right: 20%;
 }
 
 .intro{
@@ -102,6 +114,7 @@ ul li, a{
     font-weight: bolder;
     color:  #422bc9;
     width: 600px;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
 }
 
 .text-intro{
@@ -110,17 +123,19 @@ ul li, a{
 }
 
 .foto{
+    flex: 30%;
     width: 300px;
     height: 300px;
     background-color: rgb(189, 184, 184);
     border-radius: 10px;
     overflow: hidden;
+    box-shadow: 0 0 4px white;
 }
 #myPhoto{
     width: 100%;
-    max-width: 300px;
-
+    max-width: 340px;
 }
+
 
 .fa-solid{
     margin-left: 10px;
