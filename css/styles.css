@@ -80,12 +80,7 @@ color: #1f1e19;
 
 /*botoes turn*/
 .buttons{
-    padding: 0;
-    position: fixed;
-    top: 29px;
-    right: 15rem;
-    display: flex;
-    align-items: center;
+
 }
 
 #night-icon{
